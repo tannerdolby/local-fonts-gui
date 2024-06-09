@@ -42,8 +42,7 @@ public class FontsInterface {
 				e.printStackTrace();
 			}
 		}
-		textPane.setBackground(Color.black);
-		textPane.setForeground(Color.white);
+
 		textPane.setEditable(false);
 		frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
 		frame.setVisible(true);
